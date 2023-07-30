@@ -10,6 +10,7 @@ const connection = mysql.createConnection({
     database: 'study_folder'
 });
 
+
 app.get('/', (req, res) => {
     res.send('root');
 });
